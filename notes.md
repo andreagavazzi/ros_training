@@ -1,6 +1,6 @@
 # ros_training
 
-### Elementi del filesystem
+### Elementi
 
 - package: le unitá dei programmi ROS. Racchiudono il codice, i file, dipendenze, ecc..
 - package manifest: file xml nel package. Contiene info base come autore, licenza, dipendenze,..
