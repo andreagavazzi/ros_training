@@ -8,9 +8,9 @@ ROS packages are the individual units, or the atomic units, of ROS software. All
 Package manifest
 A package manifest is an XML file placed inside a ROS package. It has all the primary information of a ROS package, including the name of the package, description, author, dependencies, and so forth.
 
-nodes: Processi che eseguono operazini.
+nodes: Processi che eseguono operazioni
 master: mette in comunicazione i nodi
-parameter server: programma che può memorizzare i parametri o valori dai nodi.
+parameter server: programma che può memorizzare i parametri o valori dai nodi
 topics: bus in cui i nodi mandano o ricevono messaggi 
 message: i messaggi che arrivano o partono dai nodi
 service: funzioni chiamate dal nodo client (request/reply)
