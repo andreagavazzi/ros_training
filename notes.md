@@ -31,6 +31,9 @@ catkin_make
 | rosls [package_name] | ls del package |
 | rosnode list | elenco nodi |
 | rosnode info [node_name] | info sul nodo |
+| rostopic list | elenco topic |
+| rostopic echo /topic | echo dei dati |
+| rostopic pub /topic msg_type data| pubblica il dato sul topic |
 
 
 
