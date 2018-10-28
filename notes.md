@@ -28,7 +28,7 @@ catkin_make
 | rospack depends1 [package_name] | trova le dipendenze del package |
 | roscd [package_name] | porta alla cartella del package |
 | roscd log | porta ai file log |
-| rosls [package_name] | |
+| rosls [package_name] | ls del package |
 | rosnode list | elenco nodi |
 | rosnode info [node_name] | info sul nodo |
 
