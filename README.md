@@ -1,5 +1,5 @@
 
-https://github.com/andreagavazzi/ros_training/blob/master/data/D23D2A98-7AD6-4566-AF74-CE00F2298B5E.jpeg
+![alt text](https://github.com/andreagavazzi/ros_training/blob/master/data/D23D2A98-7AD6-4566-AF74-CE00F2298B5E.jpeg)
 # ros_training
 
 ### Elementi del filesystem
