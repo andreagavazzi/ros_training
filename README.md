@@ -1,15 +1,9 @@
-
-![alt text](https://github.com/andreagavazzi/ros_training/blob/master/data/D23D2A98-7AD6-4566-AF74-CE00F2298B5E.jpeg)
 # ros_training
 
 ### Elementi del filesystem
 
-Package
-ROS packages are the individual units, or the atomic units, of ROS software. All source code, data files, build files, dependencies, and other files are organized in packages.
-
-Package manifest
-A package manifest is an XML file placed inside a ROS package. It has all the primary information of a ROS package, including the name of the package, description, author, dependencies, and so forth.
-
+- package: le unitá dei programmi ROS. Racchiudono il codice, i file, dipendenze, ecc..
+- package manifest: file xml nel package. Contiene info base come autore, licenza, dipendenze,..
 - nodes: Processi che eseguono operazioni
 - master: mette in comunicazione i nodi
 - parameter server: programma che può memorizzare i parametri o valori dai nodi
