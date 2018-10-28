@@ -15,9 +15,20 @@
 ```
 cd ~catkin_ws/src
 catkin_create_pkg package_name std_msgs rospy roscpp
+cat package.xml    # per customizzare il file package
 cd ..
 catkin_make
 ```
+
+### Comandi utili
+
+| Comando | Descrizione |
+| :--- | :--- |
+| rospack find [package_name] | trova la cartella del package |
+| rospack depends1 [package_name] | trova le dipendenze del package |
+| roscd [package_name] | porta alla cartella del package |
+
+
 
 
 ___
