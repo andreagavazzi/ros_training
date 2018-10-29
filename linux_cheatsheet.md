@@ -1,6 +1,6 @@
 
 | File Commands | |
-| --- | --- |
+| :--- | --- |
 |ls | Directory listing |
 |ls -F | List files in current directory and indicate the file type |
 |ls -al | Formatted listing with hidden files |
