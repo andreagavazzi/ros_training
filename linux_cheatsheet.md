@@ -1,4 +1,5 @@
-### File Commands
+File Commands
+------
 ls – Directory listing  
 cd dir – Change directory to dir  
 mkdir dir – Create a directory dir  
