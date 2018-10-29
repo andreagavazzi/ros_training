@@ -24,7 +24,8 @@ tail file – Output the last 10 lines of file
 tail -20 file – Display the last 20 lines of the file called file  
 tail -f file – Output the contents of file as it grows, starting with the last 10 lines  
   
-### File Permissions
+File Permissions
+------
 chmod octal file – Change the permissions of file to octal, which can be found separately for user, group, and world by adding: 4 – read (r), 2   
 – write (w), 1 – execute (x)  
 Examples:  
@@ -32,18 +33,21 @@ chmod 777 – read, write, execute for all
 chmod 755 – rwx for owner, rx for group and world  
 For more options, see man chmod.  
   
-### User Administration
+User Administration
+------
 adduser accountname – Create a new user call accountname  
 passwd accountname – Give accountname a new password  
 su – Log in as superuser from current login  
 exit – Stop being superuser and revert to normal user  
   
-### SSH
+SSH
+------
 ssh user@host – Connect to host as user  
 ssh -p port user@host – Connect to host on port port as user  
 ssh-copy-id user@host – Add your key to host for user to enable a keyed or passwordless login  
   
-### System Info
+System Info
+------
 date – Show the current date and time  
 cal – Show this month's calendar  
 uptime – Show current uptime  
@@ -57,7 +61,8 @@ df -h – Show disk usage
 du – Show directory space usage  
 free – Show memory and swap usage  
   
-### Searching
+Searching
+------
 grep pattern files – Search for pattern in files  
 grep -r pattern dir – Search recursively for pattern in dir  
 command | grep pattern – Search for pattern in the output of command  
@@ -70,7 +75,8 @@ updatedb – Create or update the database of files on all file systems attached
 which filename – Show the subdirectory containing the executable file  called filename  
 grep TextStringToFind /dir – Starting with the directory called dir, look for and list all files containing TextStringToFind  
   
-### Network
+Network
+------
 ifconfig – List IP addresses for all devices on the local machine  
 iwconfig – Used to set the parameters of the network interface which are specific to the wireless operation (for example: the frequency)  
 iwlist – used to display some additional information from a wireless network interface that is not displayed by iwconfig  
@@ -81,7 +87,8 @@ dig -x host – Reverse lookup host
 wget file – Download file  
 wget -c file – Continue a stopped download  
   
-### Process Management
+Process Management
+------
 ps – Display your currently active processes  
 top – Display all running processes  
 kill pid – Kill process id pid  
@@ -90,7 +97,8 @@ bg – Lists stopped or background jobs; resume a stopped job in the background
 fg – Brings the most recent job to foreground  
 fg n – Brings job n to the foreground  
   
-### Stopping & Starting
+Stopping & Starting
+------
 shutdown -h now – Shutdown the system now and do not reboot  
 halt – Stop all processes - same as above  
 shutdown -r 5 – Shutdown the system in 5 minutes and reboot  
