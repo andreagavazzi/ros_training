@@ -22,18 +22,18 @@ catkin_make
 
 ### Comandi utili
 
-| Comando | Descrizione |
-| :--- | :--- |
-| rospack find [package_name] | trova la cartella del package |
-| rospack depends1 [package_name] | trova le dipendenze del package |
-| roscd [package_name] | porta alla cartella del package |
-| roscd log | porta ai file log |
-| rosls [package_name] | ls del package |
-| rosnode list | elenco nodi |
-| rosnode info [node_name] | info sul nodo |
-| rostopic list | elenco topic |
-| rostopic echo /topic | echo dei dati |
-| rostopic pub /topic msg_type data| pubblica il dato sul topic |
+| Area | Comando | Descrizione |
+| :--- | :--- | :--- |
+| | Package | rospack find [package_name] | trova la cartella del package |
+| | rospack depends1 [package_name] | trova le dipendenze del package |
+| Filesystem | roscd [package_name] | porta alla cartella del package |
+| | roscd log | porta ai file log |
+| | rosls [package_name] | ls del package |
+| Node | rosnode list | elenco nodi |
+| | rosnode info [node_name] | info sul nodo |
+| Topic | rostopic list | elenco topic |
+| | rostopic echo /topic | echo dei dati |
+| | rostopic pub /topic msg_type data| pubblica il dato sul topic |
 
 
 
