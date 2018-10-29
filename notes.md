@@ -24,11 +24,11 @@ catkin_make
 
 | Area | Comando | Descrizione |
 | :--- | :--- | :--- |
-| | Package | rospack find [package_name] | trova la cartella del package |
-| | rospack depends1 [package_name] | trova le dipendenze del package |
 | Filesystem | roscd [package_name] | porta alla cartella del package |
 | | roscd log | porta ai file log |
 | | rosls [package_name] | ls del package |
+| Package | rospack find [package_name] | trova la cartella del package |
+| | rospack depends1 [package_name] | trova le dipendenze del package |
 | Node | rosnode list | elenco nodi |
 | | rosnode info [node_name] | info sul nodo |
 | Topic | rostopic list | elenco topic |
