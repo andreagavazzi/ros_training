@@ -3,35 +3,33 @@ File Commands
 ls – Directory listing  
 cd dir – Change directory to dir  
 mkdir dir – Create a directory dir  
-pwd – Show current directory  
+pwd – Show current directory
+
 rm name – Remove a file or directory called name  
 rm -r dir – Delete directory dir  
 rm -f file – Force remove file  
-rm -rf dir – Force remove an entire directory dir and all it’s included files and subdirectories (use with extreme caution)  
+rm -rf dir – Force remove an entire directory dir and all it’s included files and subdirectories (use with extreme caution)
+
 cp file1 file2 – Copy file1 to file2  
 cp -r dir1 dir2 – Copy dir1 to dir2; create dir2 if it doesn't exist  
-cp file /home/dirname – Copy the filename called file to the /home/dirname directory  
+cp file /home/dirname – Copy the filename called file to the /home/dirname directory
+
 mv file /home/dirname – Move the file called filename to the /home/dirname directory  
-mv file1 file2 – Rename or move file1 to file2; if file2 is an existing directory, moves file1 into directory file2  
+mv file1 file2 – Rename or move file1 to file2; if file2 is an existing directory, moves file1 into directory file2
+
 ln -s file link – Create symbolic link link to file  
 touch file – Create or update file  
 cat > file – Places standard input into file  
 cat file – Display the file called file  
-more file – Display the file called file one page at a time, proceed to next page using the spacebar  
-head file – Output the first 10 lines of file  
-head -20 file – Display the first 20 lines of the file called file  
-tail file – Output the last 10 lines of file  
-tail -20 file – Display the last 20 lines of the file called file  
-tail -f file – Output the contents of file as it grows, starting with the last 10 lines  
+  
   
 File Permissions
 ------
-chmod octal file – Change the permissions of file to octal, which can be found separately for user, group, and world by adding: 4 – read (r), 2   
-– write (w), 1 – execute (x)  
-Examples:  
-chmod 777 – read, write, execute for all  
-chmod 755 – rwx for owner, rx for group and world  
-For more options, see man chmod.  
+chmod octal file – Change the permissions of file to octal, which can be found separately for user, group, and world by adding: 
+Examples (man chmod to see more):  
+- chmod 777 – read, write, execute for all  
+- chmod 755 – rwx for owner, rx for group and world  
+  
   
 User Administration
 ------
