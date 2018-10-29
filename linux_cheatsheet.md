@@ -30,7 +30,8 @@ tail -20 file – Display the last 20 lines of the file called file
 tail -f file – Output the contents of file as it grows, starting with the last 10 lines
 
 #### File Permissions
-chmod octal file – Change the permissions of file to octal, which can be found separately for user, group, and world by adding: 4 – read (r), 2 – write (w), 1 – execute (x)
+chmod octal file – Change the permissions of file to octal, which can be found separately for user, group, and world by adding: 4 – read (r), 2 
+– write (w), 1 – execute (x)
 Examples:
 chmod 777 – read, write, execute for all
 chmod 755 – rwx for owner, rx for group and world
@@ -68,7 +69,8 @@ command | grep pattern – Search for pattern in the output of command
 locate file – Find all instances of file
 find / -name filename – Starting with the root directory, look for the file called filename
 find / -name ”*filename*” – Starting with the root directory, look for the file containing the string filename
-locate filename – Find a file called filename using the locate command; this assumes you have already used the command updatedb (see next)
+locate filename – Find a file called filename using the locate command; this assumes you have already used the command updatedb (see 
+next)
 updatedb – Create or update the database of files on all file systems attached to the Linux root directory
 which filename – Show the subdirectory containing the executable file  called filename
 grep TextStringToFind /dir – Starting with the directory called dir, look for and list all files containing TextStringToFind
