@@ -1,12 +1,10 @@
 
-#### File Commands
-| Comando | Descrizione |
+| File Commands | |
 | --- | --- |
 |ls | Directory listing |
 |ls -F | List files in current directory and indicate the file type |
 |ls -al | Formatted listing with hidden files |
 |cd dir | Change directory to dir |
-|cd | Change to home |
 |mkdir dir | Create a directory dir |
 |pwd | Show current directory |
 |rm name | Remove a file or directory called name |
