@@ -1,3 +1,8 @@
+Linuz
+aa
+ss
+
+
 #### File Commands
 ls – Directory listing
 cd dir – Change directory to dir
