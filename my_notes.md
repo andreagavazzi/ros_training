@@ -15,7 +15,7 @@
 ```
 cd ~catkin_ws/src
 catkin_create_pkg package_name std_msgs rospy roscpp
-cat package.xml    # per customizzare il file package
+gedit package.xml    # per customizzare il file package
 cd ..
 catkin_make
 ```
