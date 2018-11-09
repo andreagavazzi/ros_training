@@ -35,8 +35,36 @@ catkin_make
 | | rostopic echo /topic | echo dei dati |
 | | rostopic pub /topic msg_type data| pubblica il dato sul topic |
 
+# Publisher e Subscriber templates
 
+### Publisher
 
+```python
+#!/usr/bin/env python
+
+import rospy
+from std_msgs.msg import String
+
+def talker():    # è la routine chiamata dalla funzione principale
+    pub = rospy.Publisher('chatter', String, queue_size=10)
+    
+    rospy.init_node('talker', anonymous=True)     # crea il nodo
+    rate = rospy.Rate(10) # 10hz
+    
+    while not rospy.is_shutdown():
+        hello_str = "hello world %s" % rospy.get_time()
+        
+        rospy.loginfo(hello_str)    # info per il log
+        
+        pub.publish(hello_str)    # pubblica
+        rate.sleep()
+
+if __name__ == '__main__':    # Funzione principale
+    try:
+        talker()
+    except rospy.ROSInterruptException:
+        pass
+```
 
 
 ___
