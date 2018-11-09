@@ -67,7 +67,7 @@ if __name__ == '__main__':    # Funzione principale
 ```
 
 ### Subscriber
-
+This declares that your node subscribes to the chatter topic which is of type std_msgs.msgs.String. When new messages are received, callback is invoked with the message as the first argument.
 ```python
 #!/usr/bin/env python
 import rospy
