@@ -41,7 +41,6 @@ catkin_make
 
 ```python
 #!/usr/bin/env python
-
 import rospy
 from std_msgs.msg import String
 
@@ -51,10 +50,8 @@ def talker():
     rospy.init_node('talker', anonymous=True)     # crea il nodo
     rate = rospy.Rate(10) # 10hz
     
-    while not rospy.is_shutdown():
-        hello_str = "hello world"
-        
-        pub.publish(hello_str)    # pubblica la stringa
+    while not rospy.is_shutdown():        
+        pub.publish('Hello World')    # pubblica la stringa
         rate.sleep()
 
 if __name__ == '__main__':    # Funzione principale
