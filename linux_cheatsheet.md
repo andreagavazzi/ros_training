@@ -1,3 +1,9 @@
+Git Commands
+------
+git add -A - Aggiunge i file modificati in stage
+git commit - prepara lo stage
+git push - pubblica in github
+
 File Commands
 ------
 ls – Directory listing  
