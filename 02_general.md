@@ -11,15 +11,6 @@
 - message: i messaggi che arrivano o partono dai nodi
 - service: funzioni chiamate dal nodo client (request/reply)
 
-### Creazione di un package
-```
-cd ~catkin_ws/src
-catkin_create_pkg package_name std_msgs rospy roscpp
-gedit package.xml    # per customizzare il file package
-cd ..
-catkin_make
-```
-
 ### Comandi utili
 
 | Area | Comando | Descrizione |
@@ -34,6 +25,15 @@ catkin_make
 | Topic | rostopic list | elenco topic |
 | | rostopic echo /topic | echo dei dati |
 | | rostopic pub /topic msg_type data| pubblica il dato sul topic |
+
+### Creazione di un package
+```
+cd ~catkin_ws/src
+catkin_create_pkg package_name std_msgs rospy roscpp
+gedit package.xml    # per customizzare il file package
+cd ..
+catkin_make
+```
 
 # Publisher e Subscriber templates
 
