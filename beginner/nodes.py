@@ -8,3 +8,4 @@ if __name__ == '__main__':
   
   while not rospy.is_shutdown():
     # main code ....
+    rate.sleep()
