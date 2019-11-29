@@ -3,8 +3,8 @@
 ### Elementi
 
 - package: I programmi ROS. Racchiudono, oltre un manifest.xml descrittivo, codice, file, dipendenze, ecc..
-- nodes: Processi che eseguono operazioni
-- topics: bus in cui i nodi mandano o ricevono messaggi
+- node: Processi che eseguono operazioni
+- topic: bus in cui i nodi mandano o ricevono messaggi
 - message: i messaggi che arrivano o partono dai nodi  
 
 - master: mette in comunicazione i nodi
