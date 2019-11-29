@@ -2,8 +2,7 @@
 
 ### Elementi
 
-- package: le unità dei programmi ROS. Racchiudono il codice, i file, dipendenze, ecc...
-- package manifest: file xml nel package. Contiene info base come autore, licenza, dipendenze,...
+- package: I programmi ROS. Racchiudono, oltre un manifest.xml descrittivo, codice, file, dipendenze, ecc..
 - nodes: Processi che eseguono operazioni
 - topics: bus in cui i nodi mandano o ricevono messaggi
 - message: i messaggi che arrivano o partono dai nodi  
