@@ -5,10 +5,11 @@
 - package: le unità dei programmi ROS. Racchiudono il codice, i file, dipendenze, ecc...
 - package manifest: file xml nel package. Contiene info base come autore, licenza, dipendenze,...
 - nodes: Processi che eseguono operazioni
+- topics: bus in cui i nodi mandano o ricevono messaggi
+- message: i messaggi che arrivano o partono dai nodi  
+
 - master: mette in comunicazione i nodi
 - parameter server: programma che può memorizzare i parametri o valori dai nodi
-- topics: bus in cui i nodi mandano o ricevono messaggi 
-- message: i messaggi che arrivano o partono dai nodi
 - service: funzioni chiamate dal nodo client (request/reply)
 
 ### Comandi utili
