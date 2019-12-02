@@ -13,12 +13,12 @@ rosrun rosserial_python serial_node.py /dev/ttyUSB0
 
 ### Publisher template  
 ```C++
-#include <ros.h>
-#include <std_msgs/String.h>
+#include <ros.h> //carico la libreria
+#include <std_msgs/String.h> //tipo di messaggio
 
-ros::NodeHandle nh;
+ros::NodeHandle nh; //istanza del nodehandle che gesisce la comunicazione tra nodi
 
-std_msgs::String str_msg;
+std_msgs::String str_msg; 
 ros::Publisher chatter("chatter", &str_msg);
 
 char hello[13] = "hello world!";
@@ -66,28 +66,21 @@ void loop()
 
 ### LCD Subscriber  
 
-
-
-
 ```C++
 /*
 * Sottoscrive L'LCD ad un toplic che pubblica testo
 */
 
-//carico la libreria ros e comunico il tipo di messaggio che intendo usare
 #include <ros.h>
 #include <std_msgs/Empty.h>
 
-//Creo l'istanza del nodehandle che gesisce la comunicazione tra i nodi
 ros::NodeHandle nh;
 
 //Creo la funzione callback per il subscriber. 
-//The call back function must take a constant reference of a message as its argument. 
-//In our callback messageCb, the type of message is std_msgs::Empty and the message name will be toggle_msg.
 
 void messageCb( const std_msgs::Empty& toggle_msg)
 {
-  digitalWrite(13, HIGH-digitalRead(13));   // blink the led
+  digitalWrite(13, HIGH-digitalRead(13));   // blink the led codice LCD
 }
 
 // Istanziamo il subscriber con il topic name "toggle_led" e tipo std_msgs::Empty. 
