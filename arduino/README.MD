@@ -1,6 +1,6 @@
 Subscriber
 
-'''C++
+```C++
 /*
  * rosserial Subscriber Example
  * Blinks an LED on callback
@@ -29,4 +29,4 @@ void loop()
   nh.spinOnce();
   delay(1);
 }
-'''
+```
